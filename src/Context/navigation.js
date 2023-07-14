@@ -31,4 +31,4 @@ function NavigationProvider({children}) {
 }
 
 export {NavigationProvider};
-export default NavigationProvider
+export default NavigationContext; 

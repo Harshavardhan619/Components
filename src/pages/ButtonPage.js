@@ -20,16 +20,16 @@ const handleClick = () => {
               > <GoBell/> click here !!</Button>
         </div>
         <div>
-            <Button success outline  > < GoFileDirectory/>success</Button>
+            <Button success outline className="mb-5" > < GoFileDirectory/>success</Button>
         </div>
         <div>
-            <Button secondary rounded outline > <GoCloudDownload />see more</Button>
+            <Button secondary rounded outline className="mb-5" > <GoCloudDownload />see more</Button>
         </div>
         <div>
-            <Button warning outline rounded><GoDatabase/> deals</Button>
+            <Button  outline rounded className="mb-5" ><GoDatabase/> deals</Button>
         </div>
         <div>
-            <Button danger outline > <GoArrowDown/> Hide Adds</Button>
+            <Button danger rounded outline > <GoArrowDown/> Hide Adds</Button>
         </div> 
     </div>
   )
